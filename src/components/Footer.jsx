@@ -10,7 +10,7 @@ export function Footer() {
         setShowMap(!showMap)
     }
     return (
-        <footer id="contacts" className="footer" style={{backgroundImage: 'url(./images/footer.png)'}}>
+        <footer id="contacts" className="footer" style={{backgroundImage: 'url(bbscopy/images/footer.png)'}}>
             <div className="footer-wrapper">
                 <div className="container">
                     <p className="footer__title">{t("footer.title")}</p>

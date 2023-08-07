@@ -58,7 +58,7 @@ const AccordionItem = ({ skills, textSkills, who, textWho, textConditions, condi
             <div className={`accordion-item ${isActive ? 'active accordion-grey' : ''}`} onClick={isActive ? () => handleClick(null) : () => handleClick(index)}>
                 <div className="accordion-title">{vocationJob}</div>
                 <div className={`accordion-img`}>
-                    <img className={`${isActive ? 'rotate' : ''}`} src="./images/arrow.png" alt=""/>
+                    <img className={`${isActive ? 'rotate' : ''}`} src="bbscopy/images/arrow.png" alt=""/>
                 </div>
             </div>
             {isActive && <div className={`accordion-content`}>

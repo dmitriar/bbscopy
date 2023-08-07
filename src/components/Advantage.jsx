@@ -15,37 +15,37 @@ export function Advantage() {
             </div>
             <div className="advantage-box container">
                 <AdvantageItem
-                    src={"./images/ada1.svg"}
+                    src={"bbscopy/images/ada1.svg"}
                     title={t("chemical.item-title1")}
                     description={t("chemical.item-description1")}
                 />
 
                 <AdvantageItem
-                    src={"./images/ada2.svg"}
+                    src={"bbscopy/images/ada2.svg"}
                     title={t("chemical.item-title2")}
                     description={t("chemical.item-description2")}
                 />
 
                 <AdvantageItem
-                    src={"./images/ada3.svg"}
+                    src={"bbscopy/images/ada3.svg"}
                     title={t("chemical.item-title3")}
                     description={t("chemical.item-description3")}
                 />
 
                 <AdvantageItem
-                    src={"./images/ada4.svg"}
+                    src={"bbscopy/images/ada4.svg"}
                     title={t("chemical.item-title4")}
                     description={t("chemical.item-description4")}
                 />
 
                 <AdvantageItem
-                    src={"./images/ada5.svg"}
+                    src={"bbscopy/images/ada5.svg"}
                     title={t("chemical.item-title5")}
                     description={t("chemical.item-description5")}
                 />
 
                 <AdvantageItem
-                    src={"./images/ada6.svg"}
+                    src={"bbscopy/images/ada6.svg"}
                     title={t("chemical.item-title6")}
                     description={t("chemical.item-description6")}
                 />
