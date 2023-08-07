@@ -28,27 +28,27 @@ export function Services() {
                 <div className="container">
                     <div className="services-box">
                         <ServicesItem
-                            src={"bbscopy/images/services1.svg"}
+                            src={"./images/services1.svg"}
                             description={t("chemical.service-description1")}
                         />
 
                         <ServicesItem
-                            src={"bbscopy/images/services2.svg"}
+                            src={"./images/services2.svg"}
                             description={t("chemical.service-description2")}
                         />
 
                         <ServicesItem
-                            src={"bbscopy/images/services3.svg"}
+                            src={"./images/services3.svg"}
                             description={t("chemical.service-description3")}
                         />
 
                         <ServicesItem
-                            src={"bbscopy/images/services4.svg"}
+                            src={"./images/services4.svg"}
                             description={t("chemical.service-description4")}
                         />
 
                         <ServicesItem
-                            src={"bbscopy/images/services5.svg"}
+                            src={"./images/services5.svg"}
                             description={t("chemical.service-description5")}
                         />
                     </div>

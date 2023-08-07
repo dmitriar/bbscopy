@@ -28,38 +28,38 @@ export function Laser() {
                 <div>
                     <section className="container laser">
                         <div className="laser__image">
-                            <img src="bbscopy/images/laser/laser.png" alt=""/>
+                            <img src="./images/laser/laser.png" alt=""/>
                         </div>
                         <HowWork/>
                         <div className="laser-items__wrapper">
                             <CoffeeItem
                                 title={t("work.l1")}
-                                src={"bbscopy/images/laser/001.svg"}
+                                src={"./images/laser/001.svg"}
                                 description={t("laser.item-description1")}
                             />
                             <CoffeeItem
                                 title={t("work.l2")}
-                                src={"bbscopy/images/laser/002.svg"}
+                                src={"./images/laser/002.svg"}
                                 description={t("laser.item-description2")}
                             />
                             <CoffeeItem
                                 title={t("work.l3")}
-                                src={"bbscopy/images/laser/003.svg"}
+                                src={"./images/laser/003.svg"}
                                 description={t("laser.item-description3")}
                             />
                             <CoffeeItem
                                 title={t("work.l4")}
-                                src={"bbscopy/images/laser/004.svg"}
+                                src={"./images/laser/004.svg"}
                                 description={t("laser.item-description4")}
                             />
                             <CoffeeItem
                                 title={t("work.l5")}
-                                src={"bbscopy/images/laser/005.svg"}
+                                src={"./images/laser/005.svg"}
                                 description={t("laser.item-description5")}
                             />
                             <CoffeeItem
                                 title={t("work.l6")}
-                                src={"bbscopy/images/laser/006.svg"}
+                                src={"./images/laser/006.svg"}
                                 description={t("laser.item-description6")}
                             />
                         </div>
@@ -74,25 +74,25 @@ export function Laser() {
                         <div className="steps-image">
                             <div className="steps-item">
                                 <div className="steps-item__image">
-                                    <img src="bbscopy/images/laser/i1.svg" alt="image1"/>
+                                    <img src="./images/laser/i1.svg" alt="image1"/>
                                 </div>
                                 <p className="steps-item__description">{t("laser.image-description1")}</p>
                             </div>
                             <div className="steps-item">
                                 <div className="steps-item__image">
-                                    <img src="bbscopy/images/laser/i2.svg" alt="image2"/>
+                                    <img src="./images/laser/i2.svg" alt="image2"/>
                                 </div>
                                 <p className="steps-item__description steps-item__description--second">{t("laser.image-description2")}</p>
                             </div>
                             <div className="steps-item">
                                 <div className="steps-item__image">
-                                    <img src="bbscopy/images/laser/i3.svg" alt="image3"/>
+                                    <img src="./images/laser/i3.svg" alt="image3"/>
                                 </div>
                                 <p className="steps-item__description steps-item__description-third">{t("laser.image-description3")}</p>
                             </div>
                             <div className="steps-item">
                                 <div className="steps-item__image">
-                                    <img src="bbscopy/images/laser/i4.svg" alt="image4"/>
+                                    <img src="./images/laser/i4.svg" alt="image4"/>
                                 </div>
                                 <p className="steps-item__description steps-item__description-fourth">{t("laser.image-description4")}</p>
                             </div>

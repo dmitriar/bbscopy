@@ -28,7 +28,7 @@ export function Header() {
                 <div className="container container--header-top">
                     <Link className="header-top__link" to="/">
                         <div className="header-top__logo">
-                            <img src="bbscopy/images/logo.svg" alt="logo"/>
+                            <img src="./images/logo.svg" alt="logo"/>
                         </div>
                     </Link>
                     <div className="header-top__title">{t("title")}</div>

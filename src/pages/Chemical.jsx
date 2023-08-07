@@ -27,7 +27,7 @@ export function Chemical() {
                 <div>
                     <section className="container chemical">
                         <div className="chemical__main">
-                            <img src="bbscopy/images/animate.png" alt="main chemical"/>
+                            <img src="./images/animate.png" alt="main chemical"/>
                         </div>
                         <Services/>
                         <Advantage/>
