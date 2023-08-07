@@ -35,6 +35,10 @@
   &-items {
     &__info {
       width: 50%;
+      @include lg {
+        width: 100%;
+        padding-bottom: 50px;
+      }
     }
     &__item {
       display: flex;

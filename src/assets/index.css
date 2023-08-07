@@ -1063,6 +1063,12 @@ a {
 .coffee-items__info {
   width: 50%;
 }
+@media (max-width: 991.8px) {
+  .coffee-items__info {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+}
 .coffee-items__item {
   display: flex;
   gap: 10px;
