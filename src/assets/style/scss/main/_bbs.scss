@@ -1,0 +1,40 @@
+
+@use "../presets" as *;
+
+.bbs {
+  //background-color: #75DDDA;
+  padding: 50px;
+  border-bottom: 2px solid rgba(black, 0.8);
+  @include lg {
+    padding: 15px;
+  }
+  &-info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    @include lg {
+      flex-direction: column;
+    }
+    &__left {
+      flex-grow: 1;
+      color: black;
+      opacity: 0.9;
+      font-size: 160px;
+      font-weight: bold;
+      @include lg {
+        font-size: 80px;
+      }
+    }
+    &__right {
+      flex-grow: 1.2;
+      color: black;
+      opacity: 0.9;
+      font-weight: bold;
+      text-align: center;
+      &-top {
+        font-size: 24px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+}

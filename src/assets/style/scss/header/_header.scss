@@ -1,0 +1,187 @@
+
+@use "../presets" as *;
+
+.container--header-top {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  &-top {
+    background: #75DDDA;
+    padding: 0 5px;
+
+    @include md {
+      gap: 5px;
+    }
+    &__link {
+      display: flex;
+      align-items: center;
+      &:hover + .header-top__title {
+        transform: translateX(20px);
+        @include lg {
+          transform: translateX(0);
+        }
+      }
+    }
+    &__logo {
+      img {
+        width: 100%;
+      }
+    }
+    &__title {
+      flex: 1;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      color: #FFFFFF;
+      transition: 0.2s;
+      @include lg {
+        text-align: center;
+      }
+      @include sm {
+        font-size: 12px;
+      }
+      @include xs {
+        display: none;
+      }
+    }
+    &__social {
+      &-box {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+  &-bottom {
+    @include lg {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &__nav {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    &__list {
+      display: flex;
+      gap: 10px;
+      @include lg {
+        display: none;
+      }
+      &-item {
+        transition: 0.2s;
+        padding: 15px 10px;
+
+        &:hover {
+          color: #75DDDA;
+          transform: translateY(-5px);
+        }
+        &:active {
+          color: #1b9f9b;
+        }
+        @include lg {
+           padding: 0;
+           &:hover {
+             color: black;
+             transform: translateY(0);
+           }
+         }
+      }
+    }
+    &__link {
+      text-decoration: none;
+      color: black;
+    }
+    &__language {
+      padding: 30px;
+      width: 100px;
+      position: relative;
+      transition: 0.2s;
+      cursor: pointer;
+      &:hover {
+        color: #75DDDA;
+      }
+      @include lg {
+        padding: 30px 5px 30px 30px;
+        text-align: right;
+        &:hover {
+          color: black;
+        }
+      }
+      &-list {
+        display: none;
+        background-color: #75DDDA;
+        border-radius: 10px;
+        width: 100%;
+        padding: 20px;
+        flex-direction: column;
+        gap: 10px;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        z-index: 2;
+      }
+      &-item {
+        cursor: pointer;
+        transition: 0.2s;
+        padding: 5px 10px;
+        color: black;
+        &:hover {
+          color: white;
+          transform: scale(1.1);
+        }
+        @include lg {
+          &:hover {
+            color: black;
+            transform: scale(1);
+          }
+        }
+      }
+    }
+  }
+}
+
+.header-bottom__list-item {
+  @include lg {
+    padding: 15px 10px;
+  }
+}
+
+.social-images {
+  transition: 0.2s;
+  &:hover {
+    transform: scale(1.2);
+    @include md {
+      transform: scale(1);
+    }
+  }
+}
+.invisible {
+  display: none;
+}
+
+.nav-visible {
+  display: block;
+  position: fixed;
+  background-color: white;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  height: 100%;
+  z-index: 2;
+  text-align: center;
+  padding-top: 100px;
+  overflow-y: auto;
+  padding-bottom: 50px; /* Добавленное свойство */
+}
+
+.flex {
+  display: flex;
+}

@@ -1,0 +1,81 @@
+{
+  "title": "Your local partner",
+  "nav": {
+    "Home": "Home",
+    "Solutions": "Solutions",
+    "Directions": "Directions",
+    "Contacts": "Contacts",
+    "BecomeAPartner": "Become A Partner",
+    "Vocation": "Vocation",
+    "AboutUs": "About Us"
+  },
+  "language": "ENG",
+  "work": {
+    "title": "How we are working",
+    "l1": "Marketing",
+    "l2": "Logistics",
+    "l3": "Accounting",
+    "l4": "bla bla bla",
+    "r1": "text1",
+    "r2": "text2",
+    "r3": "text3",
+    "r4": "text4"
+  },
+  "categories": {
+    "btn": "more",
+    "coffee": {
+      "title": "Coffee",
+      "description": "BBS provides a full range of services in Batumi to provide and supply coffee houses, restaurants and hotels with all kinds of equipment and goods: coffee machines, coffee grinders, coffee, tea, hot chocolate, as well as utensils, inventory and accessories."
+    },
+    "confectionery": {
+      "title": "Сonfectionery",
+      "description": "Our team has been working with suppliers from Turkey, Italy, Spain, France, Poland since 2013 and offers a wide range of confectionery equipment and ingredients for baking and sweets.\nIt is beneficial to cooperate with cafes and restaurants, confectioneries, coffee shops and bakeries, dessert manufacturers.\nHere you can order goods for confectioners with delivery in Georgia."
+    },
+    "toppers": {
+      "title": "Laser cutting and 3D printing",
+      "description": "Lazer ge is a technological workshop with its production base in Batumi. We help our customers to effectively implement their ideas in the field of plywood, HDF and plastic sheet products for confectioners. Also in the assortment there is a permanent line of products intended for retail sale.\nOur specialty is simple and complex multi-operational projects, when the task is to emphasize the individuality of the product not only with visual (printed) effects, but also due to outstanding design and technological solutions, to be remembered at the level of tactile sensations. Our works are distinguished by thoughtfulness and optimality of consumer properties, optimal price/quality ratio."
+    },
+    "chemicals": {
+      "title": "Household chemicals",
+      "description": "BBS will be a great partner in the cleaning industry as well. We offer a full range of services to solve problems of sanitation and hygiene in institutions of various profiles: hospitals, schools, hotels, cafes, restaurants, social and communal facilities in Batumi. Our goods are also in demand among private consumers.\n\nIn addition, we are engaged in the installation and maintenance of sanitary equipment and staff training."
+    }
+  },
+  "footer": {
+    "title": "Contact",
+    "find": "You Can Find Us Here",
+    "address": "Address",
+    "map": "FIND ON MAPS"
+  },
+  "about": {
+    "title": "Our team",
+    "how": "How we work",
+    "values": {
+      "title": "Company values",
+      "description": "Certified BBS specialists work throughout Adjara - they are available to dealers and their customers both in Batumi and far beyond its borders. They are involved in pre-sales and sales, generation of needs, engineering."
+    },
+    "impotant": {
+      "title": "Tomorrow is more important than today",
+      "description": "We are building the world we want to live in. We are focused on long-term relationships with partners and employees and are ready to be flexible and compromise today, if a joint tomorrow depends on it."
+    },
+    "balance": {
+      "title": "Balance of interests",
+      "description": "We create an environment where people with different abilities and talents work effectively together. “The right of the strong” does not work for us. In difficult situations, we look for compromises and go forward."
+    },
+    "ethics": {
+      "title": "Ethics",
+      "description": "For us, ethics is activity, indifference, respect and responsibility. We are sure that there are no “foreign problems” and “foreign work”. And if we make a promise, we try to keep it."
+    },
+    "correctness": {
+      "title": "Correctness",
+      "description": "We build relationships every day — with colleagues, between departments, with the outside world. A comfortable environment allows employees to feel confident and free in a team."
+    },
+    "development": {
+      "title": "Continuous development",
+      "description": "Компания успешна длительное время при условии непрерывных улучшений и инноваций. Мы любим говорить, что если хочешь куда-то попасть, «надо бежать вдвое быстрее»."
+    },
+    "professionalism": {
+      "title": "Professionalism",
+      "description": "A professional is a person with extensive experience behind him, who at the same time doubts that he knows and can do everything, therefore he constantly builds up competencies in his own or related fields."
+    }
+  }
+}

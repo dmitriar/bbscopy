@@ -1,0 +1,103 @@
+
+@use "../presets" as *;
+
+.categories {
+  padding-block: 40px;
+  &-box {
+    //padding-inline: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    @include lg {
+      padding-inline: 0;
+    }
+  }
+  &-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include lg {
+      flex-direction: column;
+    }
+    &__info {}
+    &__title {
+      text-align: center;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 29px;
+      color: #000000;
+      padding-bottom: 20px;
+    }
+    &__box {
+      max-width: 450px;
+      padding: 30px;
+      border-radius: 5px;
+      @include lg {
+        max-width: 100%;
+      }
+    }
+    &__descriptions {
+      text-align: center;
+      padding-bottom: 15px;
+    }
+    &__btn {
+      border: none;
+      box-shadow: (0px 5px 5px rgba(0, 0, 0, 0.25));
+      width: 180px;
+      padding: 14px;
+      border-radius: 10px;
+      margin-inline: auto;
+      text-align: center;
+      display: block;
+      cursor: pointer;
+      transition: 0.2s;
+      &:hover {
+        box-shadow: (0px 2px 2px rgba(0, 0, 0, 0.25));
+        @include md {
+          box-shadow: (0px 5px 5px rgba(0, 0, 0, 0.25));
+        }
+      }
+      &:active {
+        box-shadow: (0px 1px 1px rgba(0, 0, 0, 0.25));
+        @include md {
+          box-shadow: (0px 5px 5px rgba(0, 0, 0, 0.25));
+        }
+      }
+    }
+  }
+}
+
+.categories-item:nth-child(even) {
+  flex-direction: row-reverse;
+  @include lg {
+    flex-direction: column;
+  }
+}
+
+#categoriesItemInfo1 {
+  background-color: #E6FFDE;
+  button {
+    background: linear-gradient(180deg, rgba(155, 237, 127, 0.45) 0%, rgba(252, 251, 209, 0.45) 100%);
+  }
+}
+
+#categoriesItemInfo2 {
+  background-color: #FDD1EA;
+  button {
+    background: linear-gradient(180deg, #f39acc 0%, rgba(255, 202, 232, 0) 100%);
+  }
+}
+
+#categoriesItemInfo3 {
+  background-color: #FCFBD1;
+  button {
+    background: linear-gradient(180deg, #FFFEA1 0%, rgba(252, 251, 209, 0.53) 100%);
+  }
+}
+
+#categoriesItemInfo4 {
+  background-color: #E8F1FF;
+  button {
+    background: linear-gradient(180deg, #ACCFFF 0%, #E8F1FF 100%);
+  }
+}

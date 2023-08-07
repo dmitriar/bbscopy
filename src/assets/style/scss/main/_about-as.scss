@@ -1,0 +1,72 @@
+
+@use "../presets" as *;
+
+.container--work-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 20px;
+  @include lg {
+    flex-direction: column;
+    padding-inline: 20px;
+    gap: 20px;
+  }
+}
+
+.about {
+  padding-bottom: 60px;
+  &-team {
+    &__title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 32px;
+      text-align: center;
+      letter-spacing: -0.019em;
+      color: #000000;
+      padding-block: 40px;
+    }
+    &__image {
+      margin-inline: auto;
+      max-width: 780px;
+      max-height: 520px;
+      &-picture {
+        width: 100%;
+      }
+    }
+  }
+  &-work {
+    &__box {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+  }
+}
+
+.work {
+  &-item {
+    &__info {
+      max-width: 450px;
+      &-title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.019em;
+        color: #000000;
+        padding-bottom: 40px;
+      }
+      &-descriptions {
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.019em;
+
+      }
+    }
+  }
+}
+
+.work-item:nth-child(even) {
+  background-color: #EFFFFF;
+}

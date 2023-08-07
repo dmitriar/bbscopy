@@ -1,0 +1,128 @@
+
+@use "../presets" as *;
+
+.footer {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &-wrapper {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,178,182,0.7);
+    padding: 100px 50px;
+    color: #00B2B6;
+    @include lg {
+      padding-block: 30px;
+      padding-inline: 5px;
+    }
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.011em;
+    color: #FFFFFF;
+    padding-bottom: 60px;
+    @include lg {
+      font-size: 36px;
+    }
+  }
+  &-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    @include lg {
+      flex-direction: column;
+    }
+  }
+  &-address {
+    @include lg {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    &__title {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+      color: #FFFFFF;
+    }
+    &__address {
+      display: block;
+      font-size: 20px;
+      line-height: 36px;
+      letter-spacing: -0.011em;
+      color: #FFFFFF;
+      font-style: normal;
+    }
+    &__map {
+      font-style: italic;
+      font-size: 20px;
+      line-height: 36px;
+      letter-spacing: -0.011em;
+      color: #FFFEA1;
+      cursor: pointer;
+      transition: 0.2s;
+      &:hover {
+        color: #f8f771;
+        transform: scale(1.1);
+        @include md {
+          color: #FFFEA1;
+          transform: scale(1);
+        }
+      }
+    }
+  }
+  &-tel {
+    a {
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+    &__number {
+      padding: 10px;
+    }
+    .header-top__social-box {
+      padding-top: 20px;
+    }
+  }
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background-color: rgba(gray, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 20px;
+  iframe {
+    border-radius: 20px;
+  }
+  &-close {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: #FFFFFF;
+    padding: 10px;
+    &:hover {
+      transform: rotateZ(180deg);
+    }
+    @include lg {
+      &:hover {
+        transform: rotateZ(0);
+      }
+    }
+  }
+}

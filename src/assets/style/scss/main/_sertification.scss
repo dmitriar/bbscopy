@@ -1,0 +1,23 @@
+@use "../presets" as *;
+
+.sertification {
+  &-wrapper {
+    padding-block: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    &__item {
+      padding-inline: 10px;
+      flex-basis: 25%;
+      @include lg {
+        flex-basis: 50%;
+      }
+      @include sm {
+        flex-basis: 100%;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+
+@use "../presets" as *;
+
+.laser {
+  &__image {
+    margin-inline: auto;
+    img {
+      width: 100%;
+    }
+  }
+  &-items{
+    &__wrapper {
+      padding-block: 50px;
+    }
+  }
+}
+
+.steps {
+  padding-block: 50px;
+  max-width: 650px;
+  margin-inline: auto;
+  &-title {
+    border-radius: 40px;
+    background: #4D6F9B;
+    &__text {
+      color: #FFF;
+      text-align: center;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.684px;
+    }
+  }
+  &-image {
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    @include lg {
+      flex-direction: column;
+      gap: 50px;
+      padding-bottom: 50px;
+    }
+    img {
+      width: 100%;
+      max-width: 300px;
+      max-height: 300px;
+    }
+  }
+  &-item {
+    &__description {
+      color: #0096CD;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: -0.57px;
+    }
+  }
+}
+
+.steps-item__description--second {
+  color: #FF9447;
+}
+.steps-item__description-third {
+  color: #00729F;
+}
+.steps-item__description-fourth {
+  color: #FF4018;
+}
+
+.steps-item:nth-child(odd) {
+  margin-bottom: 120px;
+  @include lg {
+    margin-bottom: 0;
+  }
+}

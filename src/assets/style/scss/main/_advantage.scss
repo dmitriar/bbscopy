@@ -1,0 +1,44 @@
+@use "../presets" as *;
+
+.advantage {
+  &-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-block: 60px;
+    align-items: baseline;
+    column-gap: 20px;
+    row-gap: 60px;
+    @include lg {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include md {
+      grid-template-columns: 1fr;
+    }
+  }
+  &-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    &__title {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      justify-content: space-between;
+      &-text {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #47C0CE;
+      }
+    }
+    &__description {
+      &-text {
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+      }
+    }
+  }
+}

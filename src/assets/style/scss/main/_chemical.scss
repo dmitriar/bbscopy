@@ -1,0 +1,41 @@
+
+@use "../presets" as *;
+
+.chemical {
+ &__main {
+   margin-inline: auto;
+   img {
+     width: 100%;
+   }
+ }
+}
+
+.standart {
+  &__title {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+
+.iso-wrapper {
+  padding-block: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  @include lg {
+    flex-direction: column;
+  }
+  &__image {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.work-titles--chemical {
+  flex-basis: 30%;
+}
