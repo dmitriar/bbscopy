@@ -58,6 +58,11 @@ export function Footer() {
                     </div>
                 </div>
             </div>
+            <div className="footer-design">
+                <div className="container">
+                    <p className="footer-design__text"> Designed by Kseniia Marakhovska, 2023</p>
+                </div>
+            </div>
             {showMap && <div className="popup">
                 <p onClick={onMapClick} className="popup-close">&#10006;</p>
                 <iframe

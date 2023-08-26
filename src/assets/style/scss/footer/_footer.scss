@@ -90,6 +90,20 @@
       padding-top: 20px;
     }
   }
+  &-design {
+    background-color: #2D2430;
+    &__text {
+      color: #FFF;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 32px; /* 200% */
+      letter-spacing: -0.304px;
+      padding-block: 27px;
+      @include sm {
+        text-align: center;
+      }
+    }
+  }
 }
 
 .popup {

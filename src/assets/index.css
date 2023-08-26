@@ -1474,7 +1474,7 @@ a {
   }
 }
 .iso-wrapper__image img {
-  width: 100%;
+  width: 200px;
 }
 
 .work-titles--chemical {
@@ -1575,6 +1575,22 @@ a {
 }
 .footer-tel .header-top__social-box {
   padding-top: 20px;
+}
+.footer-design {
+  background-color: #2D2430;
+}
+.footer-design__text {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px; /* 200% */
+  letter-spacing: -0.304px;
+  padding-block: 27px;
+}
+@media (max-width: 575.8px) {
+  .footer-design__text {
+    text-align: center;
+  }
 }
 
 .popup {

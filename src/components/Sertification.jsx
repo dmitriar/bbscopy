@@ -42,7 +42,7 @@ export function Sertification() {
             </div>
             <div className="iso-wrapper">
                 <div className="iso-wrapper__image">
-                    <img src="./images/chemical/haccp.svg" alt="iso1"/>
+                    <img src="./images/chemical/iso1.png" alt="iso1"/>
                 </div>
                 <div className="iso-wrapper__image">
                     <img src="./images/chemical/iso2.svg" alt="iso2"/>
