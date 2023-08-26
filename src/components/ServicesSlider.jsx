@@ -115,6 +115,11 @@ export function ServicesSlider() {
                                 className={`work-titles__text ${selectedTag === 'ServiceText8' ? 'selected' : ''}`} id="ServiceText8">{t("chemical.l8")}
                             </h2>
                         </Fade>
+                        <Fade down delay={800}>
+                            <h2 onClick={pushTextToDescription}
+                                className={`work-titles__text ${selectedTag === 'ServiceText9' ? 'selected' : ''}`} id="ServiceText9">{t("chemical.l9")}
+                            </h2>
+                        </Fade>
                     </div>
                     <div className="work-descriptions">
                         <p className={`work-descriptions__text ${isVisibles ? 'visible' : ''}`} data-description="ServiceText1">{onClicked}</p>
@@ -154,6 +159,48 @@ export function ServicesSlider() {
                             <h2 className="work-titles__text">{t("chemical.l3")}
                             </h2>
                             <p className="work-descriptions__text">{t("chemical.r3")}</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="slideContainer">
+                            <h2 className="work-titles__text">{t("chemical.l4")}
+                            </h2>
+                            <p className="work-descriptions__text">{t("chemical.r4")}</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="slideContainer">
+                            <h2 className="work-titles__text">{t("chemical.l5")}
+                            </h2>
+                            <p className="work-descriptions__text">{t("chemical.r5")}</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="slideContainer">
+                            <h2 className="work-titles__text">{t("chemical.l6")}
+                            </h2>
+                            <p className="work-descriptions__text">{t("chemical.r6")}</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="slideContainer">
+                            <h2 className="work-titles__text">{t("chemical.l7")}
+                            </h2>
+                            <p className="work-descriptions__text">{t("chemical.r7")}</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="slideContainer">
+                            <h2 className="work-titles__text">{t("chemical.l8")}
+                            </h2>
+                            <p className="work-descriptions__text">{t("chemical.r8")}</p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="slideContainer">
+                            <h2 className="work-titles__text">{t("chemical.l9")}
+                            </h2>
+                            <p className="work-descriptions__text">{t("chemical.r9")}</p>
                         </div>
                     </SwiperSlide>
                 </Swiper>
