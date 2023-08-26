@@ -1,11 +1,15 @@
 import {useTranslation} from "react-i18next";
 import {CategoriesItem} from "./CategoriesItem";
+import Fade from "react-reveal/Fade";
 
 export function Categories () {
 
     const { t } = useTranslation();
     return (
         <section className="container categories">
+            <Fade right>
+                <div className="about-team__title">{t("nav.homeTitle")}</div>
+            </Fade>
             <div className="categories-box">
                 <CategoriesItem
                     id={"categoriesItemInfo1"}

@@ -1,6 +1,7 @@
 import {useTranslation} from "react-i18next";
 import {useState} from "react";
 import {Social} from "./Social";
+import { Link, useLocation } from "react-router-dom";
 
 export function Footer() {
     const { t } = useTranslation();
@@ -9,6 +10,23 @@ export function Footer() {
     function onMapClick() {
         setShowMap(!showMap)
     }
+    const location = useLocation();
+    const getPhoneNumbers = () => {
+        switch (location.pathname) {
+            case "/":
+            case "/about_us":
+            case "/vocation":
+                return ["+955 555 7555 77", "+955 555 7555 55"];
+            case "/laser":
+                return ["+995 591 96 68 88"];
+            case "/chemical":
+                return ["+995 588 882 393"];
+            case "/confectionary":
+                return ["+995 568 804 260"];
+        }
+    };
+
+    const phoneNumbers = getPhoneNumbers();
     return (
         <footer id="contacts" className="footer" style={{backgroundImage: 'url(./images/footer.png)'}}>
             <div className="footer-wrapper">
@@ -21,12 +39,20 @@ export function Footer() {
                             <div onClick={onMapClick} className="footer-address__map">{t("footer.map")}</div>
                         </div>
                         <div className="footer-tel">
-                            <a href="tel:+955555755577">
-                                <p className="footer-tel__number">+955 555 7555 77</p>
-                            </a>
-                            <a href="tel:+955555755555">
-                                <p className="footer-tel__number">+955 555 7555 55</p>
-                            </a>
+                            {phoneNumbers.length === 1 ? (
+                                <a href={`tel:${phoneNumbers[0].replace(/\s+/g, '')}`}>
+                                    <p className="footer-tel__number">{phoneNumbers[0]}</p>
+                                </a>
+                            ) : (
+                                <>
+                                    <a href={`tel:${phoneNumbers[0].replace(/\s+/g, '')}`}>
+                                        <p className="footer-tel__number">{phoneNumbers[0]}</p>
+                                    </a>
+                                    <a href={`tel:${phoneNumbers[1].replace(/\s+/g, '')}`}>
+                                        <p className="footer-tel__number">{phoneNumbers[1]}</p>
+                                    </a>
+                                </>
+                            )}
                             <Social/>
                         </div>
                     </div>

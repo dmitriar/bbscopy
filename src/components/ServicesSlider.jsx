@@ -36,6 +36,36 @@ export function ServicesSlider() {
                     setIsVisibles(true); // Показываем новый текст
                 }, 200);
                 break;
+            case 'ServiceText4':
+                setTimeout(() => {
+                    setOnClicked(t("chemical.r4"));
+                    setIsVisibles(true); // Показываем новый текст
+                }, 200);
+                break;
+            case 'ServiceText5':
+                setTimeout(() => {
+                    setOnClicked(t("chemical.r5"));
+                    setIsVisibles(true); // Показываем новый текст
+                }, 200);
+                break;
+            case 'ServiceText6':
+                setTimeout(() => {
+                    setOnClicked(t("chemical.r6"));
+                    setIsVisibles(true); // Показываем новый текст
+                }, 200);
+                break;
+            case 'ServiceText7':
+                setTimeout(() => {
+                    setOnClicked(t("chemical.r7"));
+                    setIsVisibles(true); // Показываем новый текст
+                }, 200);
+                break;
+            case 'ServiceText8':
+                setTimeout(() => {
+                    setOnClicked(t("chemical.r8"));
+                    setIsVisibles(true); // Показываем новый текст
+                }, 200);
+                break;
         }
         setSelectedTag(selectedId);
     }
@@ -58,6 +88,31 @@ export function ServicesSlider() {
                         <Fade down delay={800}>
                             <h2 onClick={pushTextToDescription}
                                 className={`work-titles__text ${selectedTag === 'ServiceText3' ? 'selected' : ''}`} id="ServiceText3">{t("chemical.l3")}
+                            </h2>
+                        </Fade>
+                        <Fade down delay={800}>
+                            <h2 onClick={pushTextToDescription}
+                                className={`work-titles__text ${selectedTag === 'ServiceText4' ? 'selected' : ''}`} id="ServiceText4">{t("chemical.l4")}
+                            </h2>
+                        </Fade>
+                        <Fade down delay={800}>
+                            <h2 onClick={pushTextToDescription}
+                                className={`work-titles__text ${selectedTag === 'ServiceText5' ? 'selected' : ''}`} id="ServiceText5">{t("chemical.l5")}
+                            </h2>
+                        </Fade>
+                        <Fade down delay={800}>
+                            <h2 onClick={pushTextToDescription}
+                                className={`work-titles__text ${selectedTag === 'ServiceText6' ? 'selected' : ''}`} id="ServiceText6">{t("chemical.l6")}
+                            </h2>
+                        </Fade>
+                        <Fade down delay={800}>
+                            <h2 onClick={pushTextToDescription}
+                                className={`work-titles__text ${selectedTag === 'ServiceText7' ? 'selected' : ''}`} id="ServiceText7">{t("chemical.l7")}
+                            </h2>
+                        </Fade>
+                        <Fade down delay={800}>
+                            <h2 onClick={pushTextToDescription}
+                                className={`work-titles__text ${selectedTag === 'ServiceText8' ? 'selected' : ''}`} id="ServiceText8">{t("chemical.l8")}
                             </h2>
                         </Fade>
                     </div>

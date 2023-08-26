@@ -53,6 +53,9 @@ export function Services() {
                         />
                     </div>
                 </div>
+                <div className="coffee-link">
+                    <a className="coffee-link__all" href="https://grassbatumi.ge/" target="_blank">{t("coffee.coffee-link__all")}</a>
+                </div>
             </div>
         </section>
     )

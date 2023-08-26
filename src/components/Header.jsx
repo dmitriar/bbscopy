@@ -43,11 +43,11 @@ export function Header() {
                 </div>
                 <nav className="header-bottom__nav">
                     <ul className={`header-bottom__list ${active ? 'nav-visible' : ''}`}>
-                        <Link className="header-bottom__link"
-                              to={'/'}
-                              onClick={active && onBurgerClick}>
-                            <li className="header-bottom__list-item">{t("nav.Home")}</li>
-                        </Link>
+                        {/*<Link className="header-bottom__link"*/}
+                        {/*      to={'/'}*/}
+                        {/*      onClick={active && onBurgerClick}>*/}
+                        {/*    <li className="header-bottom__list-item">{t("nav.Home")}</li>*/}
+                        {/*</Link>*/}
                         {/*<Link className="header-bottom__link"*/}
                         {/*      to={'/solutions'}*/}
                         {/*      onClick={active && onBurgerClick}>*/}
@@ -67,14 +67,14 @@ export function Header() {
                         {/*    <li className="header-bottom__list-item">{t("nav.BecomeAPartner")}</li>*/}
                         {/*</Link>*/}
                         <Link className="header-bottom__link"
-                              to={'/vocation'}
-                              onClick={active && onBurgerClick}>
-                            <li className="header-bottom__list-item">{t("nav.Vocation")}</li>
-                        </Link>
-                        <Link className="header-bottom__link"
                               to={'/about_us'}
                               onClick={active && onBurgerClick}>
                             <li className="header-bottom__list-item">{t("nav.AboutUs")}</li>
+                        </Link>
+                        <Link className="header-bottom__link"
+                              to={'/vocation'}
+                              onClick={active && onBurgerClick}>
+                            <li className="header-bottom__list-item">{t("nav.Vocation")}</li>
                         </Link>
                     </ul>
                     <div onClick={onLanguageClick} className="header-bottom__language">{t("language")}

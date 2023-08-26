@@ -54,6 +54,12 @@
         gap: 15px;
         align-items: center;
         justify-content: center;
+        a {
+          width: 30px;
+        }
+        svg {
+          width: 100%;
+        }
       }
     }
   }

@@ -24,18 +24,6 @@ export function HowWork() {
                     setIsVisible(true); // Показываем новый текст
                 }, 200);
                 break;
-            case 'titleText2':
-                setTimeout(() => {
-                    setOnClicked(t("work.r2"));
-                    setIsVisible(true); // Показываем новый текст
-                }, 200);
-                break;
-            case 'titleText3':
-                setTimeout(() => {
-                    setOnClicked(t("work.r3"));
-                    setIsVisible(true); // Показываем новый текст
-                }, 200);
-                break;
             case 'titleText4':
                 setTimeout(() => {
                     setOnClicked(t("work.r4"));
@@ -70,16 +58,6 @@ export function HowWork() {
                         <Fade down>
                             <h2 onClick={pushTextToDescription}
                                 className={`work-titles__text ${selectedTag === 'titleText1' ? 'selected' : ''}`} id="titleText1">{t("work.l1")}
-                            </h2>
-                        </Fade>
-                        <Fade down delay={400}>
-                            <h2 onClick={pushTextToDescription}
-                                className={`work-titles__text ${selectedTag === 'titleText2' ? 'selected' : ''}`} id="titleText2">{t("work.l2")}
-                            </h2>
-                        </Fade>
-                        <Fade down delay={800}>
-                            <h2 onClick={pushTextToDescription}
-                                className={`work-titles__text ${selectedTag === 'titleText3' ? 'selected' : ''}`} id="titleText3">{t("work.l3")}
                             </h2>
                         </Fade>
                         <Fade down delay={1200}>

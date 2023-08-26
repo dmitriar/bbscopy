@@ -62,24 +62,28 @@ export function Confectionary() {
                         <div className="for">
                             <div className="for-wrapper">
                                 <h5 className="for__title">{t("confectionary.for.title")}</h5>
-                                <a href="#" className="for__link">{t("confectionary.for.link")}</a>
+                                <a href="https://www.konditer.ge" className="for__link">{t("confectionary.for.link")}</a>
                             </div>
                             <div className="for-items">
                                 <ForItems
                                     img={'./images/confectionary/for1.svg'}
                                     description={t("confectionary.for.description1")}
+                                    link={'https://konditer.ge/%E1%83%A7%E1%83%95%E1%83%94%E1%83%9A%E1%83%90%E1%83%A4%E1%83%94%E1%83%A0%E1%83%98-%E1%83%91%E1%83%90%E1%83%A0%E1%83%98%E1%83%A1%E1%83%97%E1%83%95%E1%83%98%E1%83%A1-c154825517'}
                                 />
                                 <ForItems
                                     img={'./images/confectionary/for2.svg'}
                                     description={t("confectionary.for.description2")}
+                                    link={'https://konditer.ge/%E1%83%A7%E1%83%95%E1%83%94%E1%83%9A%E1%83%90%E1%83%A4%E1%83%94%E1%83%A0%E1%83%98-%E1%83%A0%E1%83%94%E1%83%A1%E1%83%A2%E1%83%9D%E1%83%A0%E1%83%90%E1%83%9C%E1%83%98%E1%83%A1%E1%83%97%E1%83%95%E1%83%98%E1%83%A1-c154824265'}
                                 />
                                 <ForItems
                                     img={'./images/confectionary/for3.svg'}
                                     description={t("confectionary.for.description3")}
+                                    link={'https://konditer.ge/%E1%83%A7%E1%83%95%E1%83%94%E1%83%9A%E1%83%90%E1%83%A4%E1%83%94%E1%83%A0%E1%83%98-%E1%83%A7%E1%83%90%E1%83%95%E1%83%98%E1%83%A1-%E1%83%A1%E1%83%90%E1%83%AE%E1%83%9A%E1%83%98%E1%83%A1%E1%83%97%E1%83%95%E1%83%98%E1%83%A1-c140055097'}
                                 />
                                 <ForItems
                                     img={'./images/confectionary/for4.svg'}
                                     description={t("confectionary.for.description4")}
+                                    link={'https://konditer.ge/'}
                                 />
                             </div>
                         </div>

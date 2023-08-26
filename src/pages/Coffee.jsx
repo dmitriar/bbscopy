@@ -32,11 +32,9 @@ export function Coffee( { } ) {
                         <Fade right>
                             <h4 className="work__title">{t("coffee.work-title")}</h4>
                         </Fade>
+                        <p className="container vocation-text work-title__description">{t("coffee.work-title__description")}</p>
                         <div className="container coffee-image">
                             <img className="coffee-image__picture" src="./images/coffee/coffee-main.png" alt="coffee main"/>
-                            <div className="coffee-link">
-                                <a className="coffee-link__all" href="#">{t("coffee.coffee-link__all")}</a>
-                            </div>
                         </div>
 
                         <div className="container coffee-items">

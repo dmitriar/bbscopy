@@ -37,16 +37,7 @@ export function Laser() {
                                 src={"./images/laser/001.svg"}
                                 description={t("laser.item-description1")}
                             />
-                            <CoffeeItem
-                                title={t("work.l2")}
-                                src={"./images/laser/002.svg"}
-                                description={t("laser.item-description2")}
-                            />
-                            <CoffeeItem
-                                title={t("work.l3")}
-                                src={"./images/laser/003.svg"}
-                                description={t("laser.item-description3")}
-                            />
+
                             <CoffeeItem
                                 title={t("work.l4")}
                                 src={"./images/laser/004.svg"}
@@ -64,7 +55,7 @@ export function Laser() {
                             />
                         </div>
                         <div className="coffee-link">
-                            <a className="coffee-link__all" href="#">{t("coffee.coffee-link__all")}</a>
+                            <a className="coffee-link__all" href="https://www.lazer.ge" target="_blank">{t("coffee.coffee-link__all")}</a>
                         </div>
                         <div className="steps">
                             <div className="steps-title">

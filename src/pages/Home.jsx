@@ -12,8 +12,8 @@ export function Home() {
     return (
         <div>
             <Animate/>
-            <Expertise/>
-            <Bbs/>
+            {/*<Expertise/>*/}
+            {/*<Bbs/>*/}
             {/*<HowWork/>*/}
             <Categories/>
             {/*<Services/>*/}
