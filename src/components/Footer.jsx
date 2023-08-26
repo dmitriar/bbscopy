@@ -16,6 +16,7 @@ export function Footer() {
             case "/":
             case "/about_us":
             case "/vocation":
+            case "/coffee":
                 return ["+955 555 7555 77", "+955 555 7555 55"];
             case "/laser":
                 return ["+995 591 96 68 88"];
@@ -23,6 +24,8 @@ export function Footer() {
                 return ["+995 588 882 393"];
             case "/confectionary":
                 return ["+995 568 804 260"];
+            default:
+                return ["+955 555 7555 77", "+955 555 7555 55"];
         }
     };
 

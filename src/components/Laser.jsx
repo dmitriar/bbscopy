@@ -43,15 +43,16 @@ export function Laser() {
                                 src={"./images/laser/004.svg"}
                                 description={t("laser.item-description4")}
                             />
-                            <CoffeeItem
-                                title={t("work.l5")}
-                                src={"./images/laser/005.svg"}
-                                description={t("laser.item-description5")}
-                            />
+
                             <CoffeeItem
                                 title={t("work.l6")}
                                 src={"./images/laser/006.svg"}
                                 description={t("laser.item-description6")}
+                            />
+                            <CoffeeItem
+                                title={t("work.l5")}
+                                src={"./images/laser/005.svg"}
+                                description={t("laser.item-description5")}
                             />
                         </div>
                         <div className="coffee-link">
