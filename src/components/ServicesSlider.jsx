@@ -66,6 +66,12 @@ export function ServicesSlider() {
                     setIsVisibles(true); // Показываем новый текст
                 }, 200);
                 break;
+            case 'ServiceText9':
+                setTimeout(() => {
+                    setOnClicked(t("chemical.r9"));
+                    setIsVisibles(true); // Показываем новый текст
+                }, 200);
+                break;
         }
         setSelectedTag(selectedId);
     }
