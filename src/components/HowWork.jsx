@@ -102,20 +102,20 @@ export function HowWork() {
                             </div>
                         </Fade>
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="slideContainer">
-                            <h2 className="work-titles__text">{t("work.l2")}
-                            </h2>
-                            <p className="work-descriptions__text">{t("work.r2")}</p>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="slideContainer">
-                            <h2 className="work-titles__text">{t("work.l3")}
-                            </h2>
-                            <p className="work-descriptions__text">{t("work.r3")}</p>
-                        </div>
-                    </SwiperSlide>
+                    {/*<SwiperSlide>*/}
+                    {/*    <div className="slideContainer">*/}
+                    {/*        <h2 className="work-titles__text">{t("work.l2")}*/}
+                    {/*        </h2>*/}
+                    {/*        <p className="work-descriptions__text">{t("work.r2")}</p>*/}
+                    {/*    </div>*/}
+                    {/*</SwiperSlide>*/}
+                    {/*<SwiperSlide>*/}
+                    {/*    <div className="slideContainer">*/}
+                    {/*        <h2 className="work-titles__text">{t("work.l3")}*/}
+                    {/*        </h2>*/}
+                    {/*        <p className="work-descriptions__text">{t("work.r3")}</p>*/}
+                    {/*    </div>*/}
+                    {/*</SwiperSlide>*/}
                     <SwiperSlide>
                         <div className="slideContainer">
                             <h2 className="work-titles__text">{t("work.l4")}
