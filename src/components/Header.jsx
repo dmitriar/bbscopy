@@ -1,12 +1,14 @@
 
 import {Social} from "./Social";
-import {Link} from "react-router-dom";
 import {useTranslation} from "react-i18next";
 import {useState} from "react";
+import { Link, useLocation } from "react-router-dom";
 
 export function Header() {
     const [active, setActive] = useState(false);
     const [openLanguage, setOpenLanguage] = useState(false);
+
+    const location = useLocation();
 
     function onLanguageClick() {
         setOpenLanguage(!openLanguage)
@@ -43,11 +45,11 @@ export function Header() {
                 </div>
                 <nav className="header-bottom__nav">
                     <ul className={`header-bottom__list ${active ? 'nav-visible' : ''}`}>
-                        {/*<Link className="header-bottom__link"*/}
-                        {/*      to={'/'}*/}
-                        {/*      onClick={active && onBurgerClick}>*/}
-                        {/*    <li className="header-bottom__list-item">{t("nav.Home")}</li>*/}
-                        {/*</Link>*/}
+                        {location.pathname === "/" ? "" : <Link className="header-bottom__link"
+                               to={'/'}
+                               onClick={active && onBurgerClick}>
+                            <li className="header-bottom__list-item">{t("nav.Home")}</li>
+                        </Link>}
                         {/*<Link className="header-bottom__link"*/}
                         {/*      to={'/solutions'}*/}
                         {/*      onClick={active && onBurgerClick}>*/}
