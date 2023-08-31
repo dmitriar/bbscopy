@@ -84,6 +84,9 @@
     }
     &__number {
       padding: 10px;
+      @include lg {
+        text-align: center;
+      }
     }
     .header-top__social-box {
       padding-top: 20px;

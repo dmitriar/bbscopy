@@ -714,6 +714,11 @@ a {
   padding-bottom: 20px;
   max-width: 450px;
 }
+@media (max-width: 991.8px) {
+  .categories-item__title {
+    max-width: 100%;
+  }
+}
 .categories-item__box {
   max-width: 450px;
   padding: 30px;
@@ -1571,6 +1576,11 @@ a {
 }
 .footer-tel__number {
   padding: 10px;
+}
+@media (max-width: 991.8px) {
+  .footer-tel__number {
+    text-align: center;
+  }
 }
 .footer-tel .header-top__social-box {
   padding-top: 20px;
