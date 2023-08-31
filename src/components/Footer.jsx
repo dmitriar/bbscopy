@@ -14,6 +14,7 @@ export function Footer() {
     const getPhoneNumbers = () => {
         switch (location.pathname) {
             case "/":
+                return ["+955 555 7555 77", "+955 555 7555 55", "info@bbs.ge"];
             case "/about_us":
             case "/vocation":
             case "/coffee":
@@ -53,6 +54,9 @@ export function Footer() {
                                     </a>
                                     <a href={`tel:${phoneNumbers[1].replace(/\s+/g, '')}`}>
                                         <p className="footer-tel__number">{phoneNumbers[1]}</p>
+                                    </a>
+                                    <a href={`mailto:${phoneNumbers[2]}`}>
+                                        <p className="footer-tel__number">{phoneNumbers[2]}</p>
                                     </a>
                                 </>
                             )}

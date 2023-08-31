@@ -32,7 +32,6 @@
   &-box {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     gap: 20px;
     @include lg {
       flex-direction: column;

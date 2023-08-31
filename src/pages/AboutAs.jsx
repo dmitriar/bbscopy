@@ -49,11 +49,11 @@ export function AboutAs() {
                         description={t("about.development.description")}
                         img={"./images/about/a2.svg"}
                     />
-                    <AboutWorkItem
-                        title={t("about.professionalism.title")}
-                        description={t("about.professionalism.description")}
-                        img={"./images/about/a1.svg"}
-                    />
+                    {/*<AboutWorkItem*/}
+                    {/*    title={t("about.professionalism.title")}*/}
+                    {/*    description={t("about.professionalism.description")}*/}
+                    {/*    img={"./images/about/a1.svg"}*/}
+                    {/*/>*/}
                 </div>
             </div>
         </section>
