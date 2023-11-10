@@ -81,9 +81,11 @@ export function Header() {
                     </ul>
                     <div onClick={onLanguageClick} className="header-bottom__language">{t("language")}
                         <ul className={`header-bottom__language-list ${openLanguage ? 'flex' : ''}`}>
+                            {/*
                             <li className="header-bottom__language-item" onClick={() => changeLanguage("en")}>ENG</li>
+                            */}
+                            <li className="header-bottom__language-item" onClick={() => changeLanguage("ge")}>GE</li>
                             <li className="header-bottom__language-item" onClick={() => changeLanguage("ru")}>RU</li>
-                            <li className="header-bottom__language-item">GE</li>
                         </ul>
                     </div>
                 </nav>

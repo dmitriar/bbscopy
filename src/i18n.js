@@ -7,11 +7,12 @@ i18n
     // Подключение бэкенда i18next
     .use(Backend)
     // Автоматическое определение языка
-    .use(LanguageDetector)
+    //.use(LanguageDetector)
     // модуль инициализации
     .use (initReactI18next)
     .init({
         // Стандартный язык
+        lng: 'ge',
         fallbackLng: 'ru',
         debug: true,
         // Распознавание и кэширование языковых кук
